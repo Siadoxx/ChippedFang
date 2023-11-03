@@ -70,10 +70,12 @@ body {
   
   #slab {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-173219.jpg);
     margin-top: 5px;
+    background-position: center center;
+    text-align: center;
   }
   
   #team-container {
@@ -101,4 +103,9 @@ body {
     width: 200px;
     height: auto;
     border-radius: 100px;
+  }
+
+  .li {
+    display: flex;
+    flex-direction: column;
   }
