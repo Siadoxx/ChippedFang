@@ -1,0 +1,41 @@
+html {
+    background-image: url(https://cdn.discordapp.com/attachments/1027301115961802772/1040013237544042566/00031-3947333047-16bitscene_A_paining_of_an_Porch_on_haloween_night_centered_murder_Michael_myers_night_4k_highly_detailed_fall_vibrant.png?ex=6555364e&is=6542c14e&hm=3e79ef7e1ebb58797b9b632d987ad5966e62d5c7ad8a47db2790e9253a3c95bd&);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+body {
+    font-family: 'Cambria', sans-serif;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+a{
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.synop {
+    text-align: center;
+}
+
+.synop, p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
