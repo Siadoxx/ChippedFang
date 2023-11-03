@@ -68,7 +68,7 @@ body {
     background-size: cover;
   }
   
-  #slab {
+  #slab .content {
     display: flex;
     justify-content: center;
     align-items: center;
