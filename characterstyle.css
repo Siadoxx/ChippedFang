@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Cambria,  sans-serif;
+    margin: auto;
+    font-size: 24px;
+    text-align: justify;
+    color: aliceblue;
+    background-image: url(https://preview.redd.it/pixel-art-views-of-dark-rainy-streets-v0-5gwu1loc4vea1.png?width=1080&crop=smart&auto=webp&s=eabdd160f1a92b13bca8ad4d7804b2b25757cb7a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    color: aliceblue;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav {
+  margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
