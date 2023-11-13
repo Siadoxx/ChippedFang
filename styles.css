@@ -9,7 +9,9 @@ body {
         1px 1px 0 #000,
        1px -1px 0 #000,
        -1px -1px 0 #000;
-  cursor: url('https://lh3.googleusercontent.com/drive-viewer/AK7aPaChukhOVboDiV7tUvL-IRAt31jjztZntHw-jQEXlTUqVyUg6LAEa5AHG8dKtOE2f6o6E-2WW0g-FcHp4c6oB9BwkHXxzQ=s2560'), auto;
+background-image: url("https://lh3.googleusercontent.com/drive-viewer/AK7aPaB0VXp6Gmqu8CsnXT7uj8kOiM2aZTXlO7DzLvd7Z4Qjiny5m1jxm3nrR-PU1vyl1UYBFcaVLgmilQfsKehY2LcJjp72-w=s1600");
+background-position: center;
+background-size: cover;
 }
 
 a {
@@ -28,12 +30,16 @@ p {
   padding: 10px;
 }
 
+ul{
+  list-style: none;
+}
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-172524.jpg);
-  background-position: center center;
+  /*background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-172524.jpg);
+  background-position: center center;*/
 }
 
 .navbar {
@@ -51,8 +57,8 @@ p {
   color: orange;
   display: flex;
   height: 300px;
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/9616e6106711007.5f969b77d0cfd.jpg);
-  background-position: center center;
+  /*background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/9616e6106711007.5f969b77d0cfd.jpg);
+  background-position: center center;*/
   padding-top: 35px;
 }
 .slogan .content {
@@ -65,9 +71,9 @@ p {
   min-height: 500px;
   margin: auto;
   padding-top: 70px;
-  background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-165925.jpg);
+  /*background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-165925.jpg);
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   margin-top: 5px;
   width: 100%;
   background-size: cover;
@@ -77,18 +83,34 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-173219.jpg);
-  margin-top: 5px;
-  background-position: center center;
   text-align: center;
 }
 
-#team-container {
+/*#slab{
+  background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-173219.jpg);
+  margin-top: 5px;
+  background-position: center center;
+}*/
+
+.tracks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*#team-container {
   background-image: url(https://wgmimedia.com/wp-content/uploads/2023/05/Screenshot-2023-05-25-170022.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 5px;
-}
+}*/
 .team{
   padding-top: 70px;
   display: flex;
