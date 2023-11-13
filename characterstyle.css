@@ -48,6 +48,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: rgba(189, 195, 199, .5);
+    border-radius: 40px;
 }
 
 .ericimg,
@@ -55,9 +57,10 @@ p {
     float: center;
     display: flex;
     margin: 20px;
+    
 }
 
-img[src="https://www.simpleimageresizer.com/_uploads/photos/6da2a03a/JarretPoster_1_25.jpg"] {
+img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaB0sTx-kL446Kuxo9EBT2O7VZN9rJyHAB9RcOTpALVoIdxmwWXg8PYYWS4iJpypz7XSr5FuPp9lLg3PpgqfHfkS_1-M=s2560"] {
     border-radius: 100%;
     vertical-align: middle;
     }
@@ -77,9 +80,11 @@ p{
     flex: 50%;
 }
 
-img[src="https://steamuserimages-a.akamaihd.net/ugc/2167980409457393640/6017752BCE06C705D7BE5F3F71936627BFCEBBF7/"] {
-    border-radius: 100%;
+img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBmacfdAfDQFpbkwaQx36TwvBddkX-bAt3YsK4KYFxk4H88BeXC4jV76vyW92rvGYBmu4k_fpqFo3_v-4PIaADXxN3B=s1600"] {
+    border-radius: 200%;
     vertical-align: middle;
+    max-height: 540px;
+    max-width: 480px;
 }
 
 .barb {
@@ -94,6 +99,8 @@ img[src="https://steamuserimages-a.akamaihd.net/ugc/2167980409457393640/6017752B
     align-self: center;
     display: grid;
     flex: 50%;
+    background-color: rgba(189, 195, 199, .5);
+    border-radius: 40px;
 }
 
 .barbimg,
@@ -103,16 +110,37 @@ p {
     margin: 20px;
 }
 
-img[src="https://www.simpleimageresizer.com/_uploads/photos/6da2a03a/lukas_3_50.jpg"] {
+img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAync3qq3rJPA0yVTcVxMJopg8YGuV74XfaUgytxnjAZgHiZGpOTd4w9rU2dts0_HAuApFTERB2eucB8m9Gsu07AKI8ww=s1600"] {
     border-radius: 100%;
     vertical-align: middle;
+    max-width: 480px;
+}
+/*
+img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDUwK3OWMC4WnKXBF4L-KPjyABAcOGRrZ7NqUCF9ifNKylnuR1jZITH2IoxpQrV4WpKiVmw6XufzNYltO_ZtltrZcezjw=s1600"]{
+    border-radius: 100%;
+    vertical-align: middle;
+    max-width: 480px;
+
 }
 
+#barbiehidden {
+    display: none;
+}
+
+#barbiehidden :hover {
+    display:inline-block;
+}
+
+#barbie :hover{
+    display:none;
+}
+*/
 .bros{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 
 .brosimg {
@@ -120,6 +148,8 @@ img[src="https://www.simpleimageresizer.com/_uploads/photos/6da2a03a/lukas_3_50.
     align-self: center;
     display: grid;
     flex: 50%;
+    background-color: rgba(189, 195, 199, .5);
+    border-radius: 40px;
 }
 
 .brosimg,
@@ -128,3 +158,4 @@ p{
     display: flex;
     margin: 20px; 
 }
+
