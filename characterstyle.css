@@ -27,6 +27,7 @@ h2 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+
 .nav {
   margin: 0 10%;
     display: flex;
@@ -76,8 +77,9 @@ p{
 .eric {
     text-align: center;
     align-self: center;
-    display: grid;
+    display: inline-block;
     flex: 50%;
+    align-content: center;
 }
 
 img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBmacfdAfDQFpbkwaQx36TwvBddkX-bAt3YsK4KYFxk4H88BeXC4jV76vyW92rvGYBmu4k_fpqFo3_v-4PIaADXxN3B=s1600"] {
@@ -92,6 +94,7 @@ img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBmacfdAfDQFpbkwaQx
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    max-width: 100%;
 }
 
 .barbimg {
@@ -159,3 +162,32 @@ p{
     margin: 20px; 
 }
 
+.west{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.westimg {
+    text-align: center;
+    align-self: center;
+    display: grid;
+    flex: 50%;
+    background-color: rgba(189, 195, 199, .5);
+    border-radius: 40px;
+}
+
+.westimg,
+p{
+    float: center;
+    display: flex;
+    margin: 20px; 
+}
+
+img[src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaD8CVDMPyR9XRBaN0XiVmFlR_PxF3DQNBdzwUBJpn7Wi1V_HvsWozud0uVyH_IVeosmcl7SKJanYjJ2eXvypR74p87sOA=s1600"] {
+    border-radius: 100%;
+    vertical-align: middle;
+    max-width: 480px;
+}
