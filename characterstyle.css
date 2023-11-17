@@ -220,3 +220,32 @@ p {
     display: flex;
     margin: 20px; 
 }
+
+.charlene {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.charimg {
+    text-align: center;
+    align-self: center;
+    display: grid;
+    flex: 50%;
+    background-color: rgba(189, 195, 199, .5);
+    border-radius: 40px;
+}
+
+img[src = "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDZbiBstdPQe9CyiqK1AOWS-gF8q8UOYp-ewEkIdHh9ATM3Pjc4J83QdyoBDr7ffCQotRJy8b1GeaGNvOhU3ATm2mEPjg=s1600"] {
+    border-radius: 100%;
+    vertical-align: middle;
+    max-width: 480px;
+}
+
+.charimg,
+p {
+    float: center;
+    display: flex;
+    margin: 20px;
+}
